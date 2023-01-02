@@ -37,7 +37,7 @@ if(selected == "Perhitungan Konstanta Propagasi") :
     st.title("Ini adalah Saluran Pengganti Transmisi")
     st.image("saluran1.jpg")
     st.title("Rumus Konstanta Propagasi")
-    st.image("Konstanta1.jpg")
+    st.image("konstanta1.jpg")
     st.title("Perhitungan Konstanta Propagasi")
 
     r = st.number_input ("masukan nilai Resistor", 0)
