@@ -16,7 +16,7 @@ with st.sidebar :
 
 if(selected == "Perhitungan Impedansi Karakteristik") :
     st.title("Ini adalah Saluran Pengganti Transmisi")
-    st.image("saluran1.jpeg")
+    st.image("saluran1.jpg")
     st.title("Rumus Impendansi Karakteristik")
     st.image("Impedansi1.jpeg")
     st.title("Perhitungan Impedansi Karakteristik")
