@@ -18,7 +18,7 @@ if(selected == "Perhitungan Impedansi Karakteristik") :
     st.title("Ini adalah Saluran Pengganti Transmisi")
     st.image("saluran1.jpg")
     st.title("Rumus Impendansi Karakteristik")
-    st.image("Impedansi1.jpeg")
+    st.image("Impedansi1.jpg")
     st.title("Perhitungan Impedansi Karakteristik")
 
     r = st.number_input ("masukan nilai Resistor", 0)
@@ -35,9 +35,9 @@ if(selected == "Perhitungan Impedansi Karakteristik") :
     
 if(selected == "Perhitungan Konstanta Propagasi") :
     st.title("Ini adalah Saluran Pengganti Transmisi")
-    st.image("saluran.jpeg")
+    st.image("saluran1.jpg")
     st.title("Rumus Konstanta Propagasi")
-    st.image("Konstanta1.jpeg")
+    st.image("Konstanta1.jpg")
     st.title("Perhitungan Konstanta Propagasi")
 
     r = st.number_input ("masukan nilai Resistor", 0)
@@ -78,7 +78,7 @@ if(selected == "Perhitungan Rasio Tegangan") :
 
 if(selected == "Perhitungan Rasio Arus") :
     st.title("Rumus Rasio Arus")
-    st.image("Arus.jpeg")
+    st.image("arus.jpeg")
     st.title("Perhitungan Rasio Arus")
     i1=st.number_input("Masukkan nilai i1 : ",0)
     i2=st.number_input("Masukkan nilai i2: ",0)
