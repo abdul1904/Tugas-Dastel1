@@ -78,7 +78,7 @@ if(selected == "Perhitungan Rasio Tegangan") :
 
 if(selected == "Perhitungan Rasio Arus") :
     st.title("Rumus Rasio Arus")
-    st.image("Arus.jpeg")
+    st.image("arus.jpeg")
     st.title("Perhitungan Rasio Arus")
     i1=st.number_input("Masukkan nilai Iin/I1(Ampere) : ",0)
     i2=st.number_input("Masukkan nilai Iout/I2(Ampere): ",0)
