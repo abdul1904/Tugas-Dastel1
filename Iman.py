@@ -13,6 +13,7 @@ with st.sidebar :
     "Perhitungan Rasio Penguatan",
     "Perhitungan Rasio Redaman",],
     default_index=0)
+    st.image("download.png")
 
 if(selected == "Perhitungan Impedansi Karakteristik") :
     st.title("Rangkaian Ekivalen Saluran Transmisi")
