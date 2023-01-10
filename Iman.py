@@ -4,7 +4,7 @@ import math
 from PIL import Image
 
 with st.sidebar :
-    selected = option_menu ("Program By Abdul Rahman Nrp 11-2021-023.\n      Tugas Dasar Telekomunikasi.\n             Dosen Pengampu : Ir. Rustamanji, M.T.\t  ",
+    selected = option_menu ("Program By Abdul Rahman Nrp 11-2021-023 Mahasiswa ITENAS.\n      Tugas Dasar Telekomunikasi.\n             Dosen Pengampu : Ir. Rustamanji, M.T.\t  ",
     ["Perhitungan Impedansi Karakteristik",
     "Perhitungan Konstanta Propagasi",
     "Perhitungan Rasio Daya",
@@ -17,14 +17,14 @@ with st.sidebar :
 if(selected == "Perhitungan Impedansi Karakteristik") :
     st.title("Rangkaian Ekivalen Saluran Transmisi")
     st.image("saluran1.jpg")
-    st.title("Rumus Impendansi Karakteristik")
+    st.title("Rumus Impendasi Karakteristik")
     st.image("Impedansi1.jpg")
     st.title("Perhitungan Impedansi Karakteristik")
 
-    r = st.number_input ("masukan nilai Resistor(Ohm/km)", 0)
-    l= st.number_input ("masukan nilai Induktor(Henry/km)", 0)
-    c= st.number_input ("masukan nilai Kapasitor(Farad/km)", 0)
-    g= st.number_input ("masukan nilai Konduktansi(Siemens/km)", 0)
+    r = st.number_input ("masukan nilai Resistor(ohm/km)", 0)
+    l= st.number_input ("masukan nilai Induktor(henry/km)", 0)
+    c= st.number_input ("masukan nilai Kapasitor(farad/km)", 0)
+    g= st.number_input ("masukan nilai Konduktansi(siemens/km)", 0)
     f= st.number_input ("masukan nilai frekuensi(Hz)", 0)
     hitung = st.button ("hitung Impedansi Karakteristik")
 
@@ -40,10 +40,10 @@ if(selected == "Perhitungan Konstanta Propagasi") :
     st.image("konstanta1.jpg")
     st.title("Perhitungan Konstanta Propagasi")
 
-    r = st.number_input ("masukan nilai Resistor(Ohm/km)", 0)
-    l= st.number_input ("masukan nilai Induktor(Henry/km)", 0)
-    c= st.number_input ("masukan nilai Kapasitor(Farad/km)", 0)
-    g= st.number_input ("masukan nilai Konduktansi(Siemens/km)", 0)
+    r = st.number_input ("masukan nilai Resistor(ohm/km)", 0)
+    l= st.number_input ("masukan nilai Induktor(henry/km)", 0)
+    c= st.number_input ("masukan nilai Kapasitor(farad/km)", 0)
+    g= st.number_input ("masukan nilai Konduktansi(siemens/km)", 0)
     f= st.number_input ("masukan nilai frekuensi(Hz)", 0)
     hitung = st.button ("hitung Konstanta Progagasi")
 
@@ -68,8 +68,8 @@ if(selected == "Perhitungan Rasio Tegangan") :
     st.title("Rumus Rasio Tegangan")
     st.image("tega.jpeg")
     st.title("Perhitungan Rasio Tegangan")
-    V1=st.number_input("Masukkan nilai Vin/V1(Volt) : ",0)
-    V2=st.number_input("Masukkan nilai Vout/v2(Volt): ",0)
+    V1=st.number_input("Masukkan nilai Vin/V1(volt) : ",0)
+    V2=st.number_input("Masukkan nilai Vout/v2(volt): ",0)
     hitung = st.button ("hitung Rasio Tegangan")
     if hitung : 
         x=(math.log10(V2/V1))*20
@@ -80,8 +80,8 @@ if(selected == "Perhitungan Rasio Arus") :
     st.title("Rumus Rasio Arus")
     st.image("arus.jpeg")
     st.title("Perhitungan Rasio Arus")
-    i1=st.number_input("Masukkan nilai Iin/I1(Ampere) : ",0)
-    i2=st.number_input("Masukkan nilai Iout/I2(Ampere): ",0)
+    i1=st.number_input("Masukkan nilai Iin/I1(ampere) : ",0)
+    i2=st.number_input("Masukkan nilai Iout/I2(ampere): ",0)
     hitung = st.button ("hitung Rasio Arus")
     if hitung : 
         x=(math.log10(i2/i1))*20
