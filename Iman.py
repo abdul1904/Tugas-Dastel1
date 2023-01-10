@@ -4,6 +4,7 @@ import math
 from PIL import Image
 
 with st.sidebar :
+    st.image("download.png")
     selected = option_menu ("Program By Abdul Rahman Nrp 11-2021-023 Mahasiswa ITENAS.\n      Tugas Dasar Telekomunikasi.\n             Dosen Pengampu : Ir. Rustamanji, M.T.\t  ",
     ["Perhitungan Impedansi Karakteristik",
     "Perhitungan Konstanta Propagasi",
@@ -13,7 +14,7 @@ with st.sidebar :
     "Perhitungan Rasio Penguatan",
     "Perhitungan Rasio Redaman",],
     default_index=0)
-    st.image("download.png")
+    
 
 if(selected == "Perhitungan Impedansi Karakteristik") :
     st.title("Rangkaian Ekivalen Saluran Transmisi")
