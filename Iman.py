@@ -58,8 +58,8 @@ if(selected == "Perhitungan Rasio Daya") :
     st.title("Rumus Rasio Daya")
     st.image("dayaa.jpeg")
     st.title("Perhitungan Rasio Daya")
-    p1=st.number_input("Masukkan nilai pin/p1(Watt) : ",0)
-    p2=st.number_input("Masukkan nilai pout/p2(Watt): ",0)
+    p1=st.number_input("Masukkan nilai pin/p1(watt) : ",0)
+    p2=st.number_input("Masukkan nilai pout/p2(watt): ",0)
     hitung = st.button ("hitung Rasio Daya")
     if hitung : 
         y=(math.log10(p2/p1))*10
