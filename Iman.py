@@ -23,11 +23,11 @@ if(selected == "Perhitungan Impedansi Karakteristik") :
     st.image("Impedansi1.jpg")
     st.title("Perhitungan Impedansi Karakteristik")
 
-    r = st.number_input ("masukan nilai Resistor(ohm/km)", 0)
-    l= st.number_input ("masukan nilai Induktor(henry/km)", 0)
-    c= st.number_input ("masukan nilai Kapasitor(farad/km)", 0)
-    g= st.number_input ("masukan nilai Konduktansi(siemens/km)", 0)
-    f= st.number_input ("masukan nilai frekuensi(Hz)", 0)
+    r = st.number_input ("masukan nilai Resistor(ohm/km)", 0.00)
+    l= st.number_input ("masukan nilai Induktor(henry/km)", 0.00)
+    c= st.number_input ("masukan nilai Kapasitor(farad/km)", 0.00)
+    g= st.number_input ("masukan nilai Konduktansi(siemens/km)", 0.00)
+    f= st.number_input ("masukan nilai frekuensi(Hz)", 0.00)
     hitung = st.button ("hitung Impedansi Karakteristik")
 
     if hitung : 
