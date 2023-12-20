@@ -5,7 +5,7 @@ from PIL import Image
 
 with st.sidebar :
     st.image("download.png")
-    selected = option_menu ("Program By Abdul Rahman Nrp 11-2021-023 Mahasiswa ITENAS.\n      Tugas Dasar Telekomunikasi.\n             Dosen Pengampu : Ir. Rustamanji, M.T.\t  ",
+    selected = option_menu ("Program dibuat oleh Aditia Nugraha Nrp 11-20190-067 Mahasiswa ITENAS.\n      Tugas Dasar Telekomunikasi.\n             Dosen Pengampu : Ir. Rustamanji, M.T.\t  ",
     ["Perhitungan Impedansi Karakteristik",
     "Perhitungan Konstanta Propagasi",
     "Perhitungan Rasio Daya",
